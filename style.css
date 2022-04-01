@@ -18,6 +18,25 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
+.contact1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 60rem;
+  background-color: #f3f3f3;
+  padding: 5rem 6rem;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.5s;
+  border: 2px solid green;
+  display: none;
+}
+.btn-close {
+  position: relative;
+  top: 50px;
+  left: -180px;
+}
 .firstbox {
   display: flex;
   justify-content: center;
@@ -107,28 +126,98 @@ body {
   background-color: rgb(106, 161, 23);
 }
 .fourthbox {
-  border: 1px solid greenyellow;
   height: 400px;
   display: flex;
   justify-content: space-around;
 }
 .fourthfirst {
-  border: 2px solid grey;
   width: 33%;
 }
 .fourthfirstcontent {
-  border: 1px solid goldenrod;
   height: 33%;
 }
 .fourthsecond {
-  border: 2px solid grey;
   width: 33%;
+  background-image: url(https://images.all-free-download.com/images/graphiclarge/farm_organic_fruit_background_vector_585306.jpg);
+  background-size: 100%;
 }
 .fourththird {
-  border: 2px solid grey;
   width: 33%;
 }
 .headerfourth {
   display: flex;
   align-items: center;
+}
+.green {
+  color: rgb(127, 240, 75);
+}
+.content {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  opacity: 80%;
+}
+.cookie-msg {
+  font-size: larger;
+  display: flex;
+  width: 100%;
+  margin-left: 400px;
+  height: 50px;
+  justify-content: space-between;
+  background-color: #90ee90;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.btn-close-cookie {
+  background-color: greenyellow;
+  border-radius: 20px;
+}
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+.slidewholebundle {
+  position: relative;
+}
+.sliderbtn {
+  margin-top: 30px;
+  position: absolute;
+  left: 340px;
+  top: 170px;
+}
+.nikal-left {
+  color: rgb(36, 170, 43);
+  font-size: larger;
+}
+.nikal-right {
+  color: rgb(36, 170, 43);
+  font-size: larger;
+  position: absolute;
+  left: 850px;
+}
+.slider {
+  height: 400px;
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.slides {
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  transition: transform 1s;
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+}
+.img2 {
+  width: 100%;
+  height: 100%;
+}
+.img3 {
+  width: 100%;
+  height: 100%;
 }
